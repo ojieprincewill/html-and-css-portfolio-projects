@@ -1,0 +1,151 @@
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(152, 122, 83, 0.911);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    height: 607px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgba(39, 23, 3, 0.681);
+    text-decoration: underline rgb(67, 41, 12);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    color: rgba(138, 112, 81, 0.426);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+ul li:hover {
+    color: rgb(77, 58, 33, 0.7);
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.mainheader {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 5px 0 5px 50px;
+    color: rgb(67, 41, 12);
+}
+
+.subheader {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 59px 50px;
+    padding: 0 0 0 10px;
+    color: rgba(157, 108, 52, 0.793);
+    border-left: 1px solid black;
+}
+
+.sub-container {
+    background-color: rgb(188, 108, 37);
+    padding: 30px;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin: 0 0 20px 0;
+}
+
+.bignumber {
+    color: rgba(67, 41, 12, 0.815);
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.cardheader {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.781);
+    margin: 0 0 10px;
+}
+
+.cardtext {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.780);
+}
+
+.contact-container {
+    background-color: rgb(77, 58, 33);
+    padding: 3rem 2rem;
+    height: 200px;
+    margin-top: 13rem;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 20px 0;
+}
+
+.small {
+    color: rgba(188, 107, 37, 0.769);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.image {
+    width: 432px;
+    height: 607px;
+}
+
+.total-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 20px auto 10px auto;
+    width: 80%;
+    height: 607px;
+    box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.5);
+}
+
+.flex-container2 a:hover {
+    color: rgb(240, 166, 76);
+    transition: .5s;
+}

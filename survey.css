@@ -1,0 +1,99 @@
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(40deg, rgb(5, 3, 101) 12%, #4a0590 50%, #7dc5f3 85%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header {
+    margin: 2rem 0 1rem;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #9e9c9cf5;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.form-control input:focus {
+    border-color: #5b2676;
+    box-shadow: 0 0 2px #3f0f46;
+    outline: none;
+}
+
+.form-control select:focus {
+    border-color: #5b2676;
+    box-shadow: 0 0 2px #3f0f46;
+    outline: none;
+}
+
+.form-control textarea:focus {
+    border-color: #5b2676;
+    box-shadow: 0 0 2px #3f0f46;
+    outline: none;
+}
+
+.form-control input:hover {
+    border-color: #5b2676;
+}
+
+.form-control select:hover {
+    border-color: #5b2676;
+}
+
+.form-control textarea:hover {
+    border-color: #5b2676;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgba(5, 0, 101, 0.9);
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 21px;
+    width: 100%;
+    margin: 20px auto 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
